@@ -5,7 +5,7 @@
 
 .topo {
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   background-color: #383d58;
   display: flex;
   justify-content: space-around;
@@ -22,4 +22,26 @@
   margin: 0 16px;
   color: #ffffff;
   font-size: 24px;
+}
+
+.escola {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#383d58, blue);
+  padding: 164px 0px;
+}
+
+.escola-textos {
+  width: 34%;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.escola-imagem {
+  width: 20%;
+}
+
+.escola-sobre {
+  padding: 24px 0px;
 }
