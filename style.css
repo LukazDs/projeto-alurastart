@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 .topo {
@@ -35,7 +36,7 @@
 .escola-textos {
   width: 34%;
   color: #ffffff;
-  margin-right: 20px;
+  margin-right: 90px;
 }
 
 .escola-imagem {
@@ -44,4 +45,44 @@
 
 .escola-sobre {
   padding: 24px 0px;
+}
+
+.estudante {
+  padding: 104px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.estudantes {
+  width: 740px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.estudante-perfil {
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 22px;
+}
+
+.estudante-imagem {
+  width: 120px;
+  height: 182px;
+  object-fit: cover;
+}
+
+.rede-social-icone {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.estudante-icones {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
 }
