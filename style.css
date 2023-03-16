@@ -86,3 +86,13 @@
   display: flex;
   justify-content: space-around;
 }
+
+.rodape-alura {
+  text-align: center;
+  background-color: black;
+}
+
+.rodape-alura-logo {
+  height: 40px;
+  padding: 20px 0;
+}
